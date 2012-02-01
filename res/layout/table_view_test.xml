@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" >
+<TableLayout     
+android:layout_width="fill_parent"     
+android:layout_height="fill_parent"     
+android:stretchColumns="*"     
+>
+	<TableRow android:id="@+id/topTableRow" android:layout_weight="1" android:gravity="center">
+		<!-- <Button android:text="Button" android:layout_width="fill_parent" android:layout_height="fill_parent"/>         
+		<Button android:text="Button" android:layout_width="fill_parent" android:layout_height="fill_parent"/> 
+		<Button android:text="Button" android:layout_width="fill_parent" android:layout_height="fill_parent"/>  -->    
+	</TableRow>     
+	<TableRow android:id="@+id/bottomTableRow" android:layout_weight="1" android:gravity="center">         
+		<!-- <Button android:text="Button" android:layout_width="fill_parent" android:layout_height="fill_parent"/> 
+		<Button android:text="Button" android:layout_width="fill_parent" android:layout_height="fill_parent"/>      
+		<Button android:text="Button" android:layout_width="fill_parent" android:layout_height="fill_parent"/>  -->   
+	</TableRow> 
+	<!-- <TableRow android:layout_weight="1" android:gravity="center">   
+		<Button android:text="Button" android:layout_width="fill_parent" android:layout_height="fill_parent"/>       
+		<Button android:text="Button" android:layout_width="fill_parent" android:layout_height="fill_parent"/>       
+		<Button android:text="Button" android:layout_width="fill_parent" android:layout_height="fill_parent"/>    
+	</TableRow>   
+	<TableRow android:layout_weight="1" android:gravity="center">     
+		<Button android:text="Button" android:layout_width="fill_parent" android:layout_height="fill_parent"/>        
+		<Button android:text="Button" android:layout_width="fill_parent" android:layout_height="fill_parent"/>         
+		<Button android:text="Button" android:layout_width="fill_parent" android:layout_height="fill_parent"/>     
+	</TableRow> -->
+</TableLayout> 
+</LinearLayout> 
+

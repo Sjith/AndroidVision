@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent">
+    <TextView android:textAppearance="?android:attr/textAppearanceLarge" android:layout_width="wrap_content" android:text="order dx" android:layout_height="wrap_content" android:id="@+id/textView1"></TextView>
+    <EditText android:layout_width="match_parent" android:id="@+id/editDerivXOrderSobel" android:layout_height="wrap_content" android:inputType="number">
+        <requestFocus></requestFocus>
+    </EditText>
+    <TextView android:textAppearance="?android:attr/textAppearanceLarge" android:layout_width="wrap_content" android:text="order dy" android:layout_height="wrap_content" android:id="@+id/textView2"></TextView>
+    <EditText android:layout_width="match_parent" android:id="@+id/editDerivYOrderSobel" android:layout_height="wrap_content" android:inputType="number"></EditText>
+    <TextView android:textAppearance="?android:attr/textAppearanceLarge" android:layout_width="wrap_content" android:text="kernel size" android:layout_height="wrap_content" android:id="@+id/textView3"></TextView>
+    <EditText android:layout_width="match_parent" android:id="@+id/editKernelSizeSobel" android:layout_height="wrap_content" android:inputType="number"></EditText>
+    <TextView android:textAppearance="?android:attr/textAppearanceLarge" android:layout_width="wrap_content" android:text="scale" android:layout_height="wrap_content" android:id="@+id/textView4"></TextView>
+    <EditText android:layout_width="match_parent" android:id="@+id/editScaleSobel" android:layout_height="wrap_content" android:inputType="numberDecimal"></EditText>
+    <TextView android:textAppearance="?android:attr/textAppearanceLarge" android:layout_width="wrap_content" android:text="offset" android:layout_height="wrap_content" android:id="@+id/textView5"></TextView>
+    <EditText android:layout_width="match_parent" android:id="@+id/editDeltaSobel" android:layout_height="wrap_content" android:inputType="numberDecimal"></EditText>    
+</LinearLayout>

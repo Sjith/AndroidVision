@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ImgProc</string>
+    <string name="filters_blur_title">Blur</string>
+    <string name="filters_mathmorph_title">Mathematical Morphology</string>
+    <string name="filters_histogram_title">Histogram</string>
+    <string name="filters_edgedetection_title">Edge Detection</string>
+    <string name="filters_houghtransform_title">Hough Transform</string>
+    <string name="row1_col1">r1c1</string>
+    <string name="row1_col2">r1c2</string>
+    <string name="row2_col1">r2c1</string>
+    <string name="row2_col2">r2c2</string>
+</resources>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent" android:orientation="vertical">
+    <TextView android:id="@+id/textView1" android:text="Kernel size" android:textAppearance="?android:attr/textAppearanceLarge" android:layout_height="wrap_content" android:layout_width="wrap_content"></TextView>
+    <EditText android:id="@+id/editKernalSizeGaussian" android:layout_height="wrap_content" android:layout_width="match_parent" android:inputType="number">
+        <requestFocus></requestFocus>
+    </EditText>
+    <TextView android:id="@+id/textView2" android:text="Standard Deviation" android:textAppearance="?android:attr/textAppearanceLarge" android:layout_height="wrap_content" android:layout_width="wrap_content"></TextView>
+    <EditText android:id="@+id/editSigmaGaussian" android:layout_height="wrap_content" android:layout_width="match_parent" android:inputType="numberDecimal"></EditText>
+    <com.hfk.widget.BarGraphView android:id="@+id/graphGaussianCurve" android:layout_height="wrap_content" android:layout_width="fill_parent"/>
+</LinearLayout>
+

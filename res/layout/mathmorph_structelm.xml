@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:id="@+id/mathmorph_structelm"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent">
+    <TextView android:id="@+id/textView1" android:text="Kernel size" android:textAppearance="?android:attr/textAppearanceLarge" android:layout_height="wrap_content" android:layout_width="wrap_content"></TextView>
+    <EditText android:id="@+id/editKernelSizeStructElm" android:layout_height="wrap_content" android:layout_width="match_parent" android:inputType="number">
+        <requestFocus></requestFocus>
+    </EditText>
+    <TextView android:id="@+id/textView1" android:text="Shape" android:textAppearance="?android:attr/textAppearanceLarge" android:layout_height="wrap_content" android:layout_width="wrap_content"></TextView>
+    <Spinner android:id="@+id/spinnerKernelShapeStructElm" android:layout_height="wrap_content" android:layout_width="match_parent"></Spinner>
+    <com.hfk.imageprocessing.widget.KernelView android:id="@+id/matrixStructElm" android:layout_height="wrap_content" android:layout_width="fill_parent"/>
+</LinearLayout>

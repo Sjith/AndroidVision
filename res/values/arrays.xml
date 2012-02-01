@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="filters_available">
+        <item>Blur</item>
+        <item>Math. Morphology</item>
+        <item>Histogram</item>
+        <item>Edge Detection</item>
+        <item>Hough Transform</item>
+    </string-array>    
+    <string-array name="filters_blur_items">
+        <item>None</item>
+        <item>Box</item>
+        <item>Median</item>
+        <item>Gausian</item>
+    </string-array>    
+    <string-array name="filters_mathmorph_items">
+        <item>None</item>
+        <item>Erosion</item>
+        <item>Dilation</item>
+        <item>Opening</item>
+        <item>Closing</item>
+        <item>Blackhat</item>
+        <item>Tophat</item>
+        <item>Gradient</item>
+    </string-array>    
+    <string-array name="filters_mathmorph_kernelshapes">
+        <item>Rectangular</item>
+        <item>Ellipse</item>
+        <item>Cross</item>
+        <item>Custom</item>
+    </string-array>    
+    <string-array name="filters_histogram_items">
+        <item>None</item>
+        <item>Equalization</item>
+    </string-array>    
+    <string-array name="filters_edgedetection_items">
+        <item>None</item>
+        <item>Sobel</item>
+        <item>Canny</item>
+    </string-array>    
+    <string-array name="filters_houghtransform_items">
+        <item>None</item>
+        <item>Lines</item>
+    </string-array>    
+</resources>
