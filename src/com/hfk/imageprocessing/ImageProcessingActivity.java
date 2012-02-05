@@ -105,29 +105,29 @@ public class ImageProcessingActivity extends Activity {
 		setFullscreen();
 		
 		Bundle bundle = this.getIntent().getExtras();
-		String param1 = bundle.getString(Main.FILTER_GROUP);
+		String param1 = bundle.getString(AndroidVision.FILTER_GROUP);
 		
-		if(param1.equals(Main.FILTER_GROUP_BLUR))
+		if(param1.equals(AndroidVision.FILTER_GROUP_BLUR))
 		{
 			setBlurView();
 		}
 		
-		if(param1.equals(Main.FILTER_GROUP_MATHMORPH))
+		if(param1.equals(AndroidVision.FILTER_GROUP_MATHMORPH))
 		{
 			setMathMorphView();
 		}
 		
-		if(param1.equals(Main.FILTER_GROUP_HISTOGRAM))
+		if(param1.equals(AndroidVision.FILTER_GROUP_HISTOGRAM))
 		{
 			setHistogramView();
 		}
 		
-		if(param1.equals(Main.FILTER_GROUP_EDGEDETECTION))
+		if(param1.equals(AndroidVision.FILTER_GROUP_EDGEDETECTION))
 		{
 			setEdgeDetectionView();
 		}
 		
-		if(param1.equals(Main.FILTER_GROUP_HOUGHTRANSFORM))
+		if(param1.equals(AndroidVision.FILTER_GROUP_HOUGHTRANSFORM))
 		{
 			setHoughTransformView();
 		}

@@ -8,7 +8,7 @@ import android.view.View;
 import android.content.res.Resources;
 import android.content.Intent;
 
-public class Main extends ListActivity {
+public class AndroidVision extends ListActivity {
 	
 	public static final String FILTER_GROUP = "FilterGroup";
 	public static final String FILTER_GROUP_BLUR = "FilterGroupBlur";
@@ -44,7 +44,7 @@ public class Main extends ListActivity {
 		if(position == 4)
 			bundle.putString(FILTER_GROUP, FILTER_GROUP_HOUGHTRANSFORM);
 
-		Intent myIntent = new Intent(Main.this, ImageProcessingActivity.class);
+		Intent myIntent = new Intent(AndroidVision.this, ImageProcessingActivity.class);
 		//Intent myIntent = new Intent(Main.this, DrawableImageProcessingActivity.class);
 		myIntent.putExtras(bundle);
 		startActivity(myIntent);
