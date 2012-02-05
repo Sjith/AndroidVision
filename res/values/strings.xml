@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">ImgProc</string>
+    <string name="app_name">AndroidVision</string>
     <string name="filters_blur_title">Blur</string>
     <string name="filters_mathmorph_title">Mathematical Morphology</string>
     <string name="filters_histogram_title">Histogram</string>
